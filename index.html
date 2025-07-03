@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<link rel="icon" type="image/png" href="logo3.png" sizes="32x32" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zoss Pack | التغليف والهوية البصرية</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
+</head>
+<body>
+
+  <!-- شاشة التحميل -->
+  <div id="loader">
+    <div class="logo-loader">
+      <img src="logo2.png" alt="Zoss Pack Logo" />
+    </div>
+  </div>
+
+  <!-- عناصر التحكم -->
+  <div class="controls">
+    <button onclick="switchLanguage()">🌐 AR / EN</button>
+  </div>
+
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <a href="#home" class="logo">
+        <img src="logo.png" alt="Zoss Pack Logo" />
+      </a>
+      <nav>
+        <a href="#home" class="nav-home">الرئيسية</a>
+        <a href="#about" class="nav-about">من نحن</a>
+        <a href="#services" class="nav-services">خدماتنا</a>
+        <a href="#portfolio" class="nav-portfolio">المعرض</a>
+        <a href="#contact" class="nav-contact">تواصل</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="home" class="hero">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <h1 class="hero-title">تغليف يُعبّر عن منتجك ✨<br>وهوية بصرية تُميزك</h1>
+      <p class="hero-subtitle">في Zoss Pack، نصنع التصاميم التي تروي قصة علامتك</p>
+      <button class="hero-btn" onclick="sayHello()">ابدأ مشروعك الآن 🚀</button>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="about" data-aos="fade-left">
+    <div class="container">
+      <h2 class="section-title title-about">من نحن</h2>
+      <p class="about-text">
+        نحن في <strong>Zoss Pack</strong> نؤمن أن التغليف هو أول انطباع عن منتجك، والهوية البصرية هي روح علامتك.
+        نبتكر لك حلول تصميم تليق برؤية علامتك وتجذب جمهورك المستهدف.
+      </p>
+    </div>
+  </section>
+
+  <div class="gradient-line"></div>
+
+  <!-- Services -->
+  <section id="services" data-aos="fade-up">
+    <div class="container">
+      <h2 class="section-title title-services">خدماتنا</h2>
+      <div class="cards">
+        <div class="card">
+          <h3 class="srv-title-1">الطباعة</h3>
+          <p class="srv-text-1">خدمات طباعة رقمية وأوفست وذات تنسيقات كبيرة، بجودة عالية لتلبية كل احتياجاتك.</p>
+        </div>
+        <div class="card">
+          <h3 class="srv-title-2">التغليف</h3>
+          <p class="srv-text-2">حلول تغليف مبتكرة ومخصصة تعكس هوية علامتك وتحافظ على منتجك.</p>
+        </div>
+        <div class="card">
+          <h3 class="srv-title-3">توريد الورق</h3>
+          <p class="srv-text-3">نوفر أجود أنواع الورق لمطابع الإمارات، بجودة عالمية وتنوع في الخيارات.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="gradient-line"></div>
+
+<!-- Portfolio / المعرض -->
+<section id="portfolio" data-aos="fade-up">
+  <div class="container">
+    <h2 class="section-title title-portfolio">معرض أعمالنا</h2>
+    <div class="gallery">
+
+      <div class="gallery-item">
+        <a href="mo14.jpg" data-lightbox="zoss-gallery" data-title="تصميم تغليف علبة عطور">
+          <img src="mo14.jpg" alt="Project 1" />
+        </a>
+      </div>
+
+      <div class="gallery-item">
+        <a href="mo 16-3.jpg" data-lightbox="zoss-gallery" data-title="تصميم هوية بصرية لمطعم">
+          <img src="mo 16-3.jpg" alt="Project 2" />
+        </a>
+      </div>
+
+      <div class="gallery-item">
+        <a href="mo 18-1.jpg" data-lightbox="zoss-gallery" data-title="تصميم علبة كرتون">
+          <img src="mo 18-1.jpg" alt="Project 3" />
+        </a>
+      </div>
+
+      <div class="gallery-item">
+        <a href="mo 13-2.jpg" data-lightbox="zoss-gallery" data-title="تصميم علبة مصباح">
+          <img src="mo 13-2.jpg" alt="Project 4" />
+        </a>
+      </div>
+
+      <div class="gallery-item">
+        <a href="mo 1.jpg" data-lightbox="zoss-gallery" data-title="تصميم هوية عصرية">
+          <img src="mo 1.jpg" alt="Project 5" />
+        </a>
+      </div>
+
+      <div class="gallery-item">
+        <a href="mo 2.jpg" data-lightbox="zoss-gallery" data-title="تصميم بوكس فاخر">
+          <img src="mo 2.jpg" alt="Project 6" />
+        </a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+  <div class="gradient-line"></div>
+  
+
+<section id="contact" class="contact" data-aos="fade-up">
+  <div class="container contact-wrapper">
+    <h2 class="section-title title-contact">تواصل معنا</h2>
+    <p class="contact-subtitle contact-subtitle-text">نحن هنا من أجلك! أرسل لنا استفسارك وسنرد بأسرع وقت.</p>
+
+    <div class="contact-grid">
+      <!-- ✅ معلومات التواصل والخريطة -->
+      <div class="contact-info-section" data-aos="fade-right">
+        <div class="info-item">
+          <img src="email.png" alt="Email" />
+          <span class="info-email">info@zoss.ae</span>
+        </div>
+        <div class="info-item">
+          <img src="phone.png" alt="Phone" />
+          <span class="info-phone" dir="ltr">+971 50 123 4567</span>
+        </div>
+        <div class="info-item">
+          <img src="location.png" alt="Location" />
+          <span class="info-location">Al Muqta 1, Um Al Quwain, UAE</span>
+        </div>
+
+        <!-- ✅ خريطة -->
+        <div class="map-wrapper">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3609.0151584443345!2d55.5508564!3d25.5581716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ef5f9f8df19b55f%3A0x6c44a48640d3c1a!2sUmm%20Al%20Quwain!5e0!3m2!1sen!2sae!4v1719945073393!5m2!1sen!2sae"
+            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+            class="map-frame">
+          </iframe>
+        </div>
+      </div>
+
+      <!-- ✅ نموذج التواصل -->
+      <form class="contact-form" onsubmit="return simulateSend(event)" data-aos="fade-left">
+        <input type="text" placeholder="اسمك الكامل" class="input-name" required />
+        <input type="email" placeholder="البريد الإلكتروني" class="input-email" required />
+        <textarea placeholder="رسالتك..." class="input-msg" required></textarea>
+        <button type="submit" class="btn-send">
+          <span class="btn-text">إرسال</span>
+          <span class="btn-loader" style="display: none">⏳</span>
+        </button>
+      </form>
+    </div>
+  </div>
+</section>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p class="footer-text">© 2025 Zoss Pack. جميع الحقوق محفوظة.</p>
+    </div>
+  </footer>
+
+  <!-- زر الرجوع للأعلى -->
+  <button onclick="scrollToTop()" id="scrollTopBtn" title="رجوع للأعلى">⬆</button>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 800,
+      easing: 'ease-in-out',
+      offset: 120,
+      once: false,
+      mirror: true
+    });
+  </script>
+
+  <!-- أزرار التواصل -->
+  <div class="contact-floating">
+    <a href="https://wa.me/971552832743" target="_blank" class="whatsapp-btn" title="WhatsApp">
+      <img src="whatsapp.png" alt="WhatsApp" />
+    </a>
+    <a href="mailto:info@zoss.ae" class="email-btn" title="Email">
+      <img src="email.png" alt="Email" />
+    </a>
+  </div>
+  <!-- Lightbox CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css" />
+<!-- Lightbox JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js"></script>
+
+
+</body>
+</html>
